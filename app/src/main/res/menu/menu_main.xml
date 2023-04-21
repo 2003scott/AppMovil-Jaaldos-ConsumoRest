@@ -1,0 +1,59 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="pe.com.appjaaldos.ActividadPrincipal">
+    <item
+        android:id="@+id/jmiInicio"
+        android:orderInCategory="100"
+        android:title="Inicio"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/jmiBusquedas"
+        android:orderInCategory="101"
+        android:title="Busquedas" >
+        <menu >
+            <item
+                android:id="@+id/jmiBuscarCategoria"
+                android:title="Categoria" />
+            <item
+                android:id="@+id/jmiBuscarUbicacion"
+                android:title="Ubicacion" />
+            <item
+                android:id="@+id/jmiBuscarRolCarga"
+                android:title="RolCargo" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/jmiCategoria"
+        android:orderInCategory="102"
+        android:title="Categoria" />
+    <item
+        android:id="@+id/jmiUbicacion"
+        android:orderInCategory="103"
+        android:title="Ubicacion" />
+    <item
+        android:id="@+id/jmiRol"
+        android:orderInCategory="104"
+        android:title="RolCargo" />
+    <item
+        android:id="@+id/jmiProducto"
+        android:orderInCategory="105"
+        android:title="Productos" />
+    <item
+        android:id="@+id/jmiProveedor"
+        android:orderInCategory="106"
+        android:title="Proveedores" />
+    <item
+        android:id="@+id/jmiCliente"
+        android:orderInCategory="107"
+        android:title="Clientes" />
+    <item
+        android:id="@+id/jmiCerrarSesion"
+        android:orderInCategory="108"
+        android:title="Cerrar Sesion" />
+    <item
+        android:id="@+id/jmiSalir"
+        android:orderInCategory="109"
+        android:title="Salir" />
+</menu>
